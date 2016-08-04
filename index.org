@@ -1,0 +1,7 @@
+#+Title: IPython notebooks 
+#+Date: Thursday, August 5, 2016
+#+Author: VLEAD Systems 
+
+
+* IPython notebook 
+
