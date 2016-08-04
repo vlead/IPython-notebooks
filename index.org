@@ -3,5 +3,7 @@
 #+Author: VLEAD Systems 
 
 
-* IPython notebook 
+* References 
++ [[https://github.com/vlead/IPython-notebooks/blob/master/src/install-jupyterhub.org][Installation Documentation]]
++ [[https://github.com/vlead/IPython-notebooks/blob/master/src/usage-instructions.org][Usage Instructions]]
 
