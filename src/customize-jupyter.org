@@ -1,0 +1,23 @@
+#+Title: Customizing Jupyterhub
+#+Date: Thursday, August 4, 2016
+#+Author: VLEAD Systems 
+
+* Introduction 
+  This document shares the steps to customize jupyter hub and its components. 
+
+* Changing default logo of Jupyter hub 
+  Follow the steps given below - 
+  + Change directory to the one which keeps default image 
+    #+BEGIN_SRC command
+    cd /usr/local/share/jupyter/hub/static/images/
+    #+END_SRC
+  + Copy the image you want to replace. Or else download it. 
+    #+BEGIN_SRC command
+    sudo wget http://vlabs.ac.in/images/logo-new.png
+    #+END_SRC
+  + Rename existing images to some other name 
+  + Name your new log image to the previous one.
+  + Restart services
+   #+BEGIN_SRC command
+   sudo supervisorctl reload 
+   #+END_SRC 
