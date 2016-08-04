@@ -24,12 +24,18 @@
   + You can use basic shell commands.
   + Clone a repository in your working directory. Repository should be the one 
     having IPython notebooks in it.
-  + Example -   git clone https://github.com/rasbt/algorithms_in_ipython_notebooks.git
+  + Example - git clone https://github.com/rasbt/algorithms_in_ipython_notebooks.git
+  + Example - git clone https://github.com/vlead/IPython-notebooks.git
   + Exit your terminal and visit your notebook user space.
   + Repository cloned must be visible as a folder.
   + Navigate to folder and look for notebooks with .ipynb extensions.
   + Your IPython notebook is imported.
 
-** 
+** Create your new notebook
+   + Create a notebook by clicking the "New" Notebook drop down.
+   + The IPython Notebook dashboard will launch inside your default web browser.
+   + Using the menu provided, add cells, contents, code snippets etc.
+   + Save your notebook.
+   + Change the title of the notebook to <you-notebook-name> by left clicking on “Untitled?” at the top of the page.
   
   
