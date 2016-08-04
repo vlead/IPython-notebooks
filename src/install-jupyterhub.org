@@ -27,6 +27,8 @@
     sudo apt-get install autoconf flex bison
     sudo apt-get install libjpeg-dev libfreetype6-dev 
     sudo apt-get install zlib1g-dev
+    sudo apt-get install libssl­dev
+    sudo apt-get install python3-pip
     sudo apt-get install gcc g++
     sudo apt-get install ngnix 
     sudo apt-get install supervisor 
@@ -103,12 +105,7 @@
     sudo reboot 
     #+END_SRC
  
-  + Install Python3 Kernel ::
-    #+BEGIN_SRC command
-    sudo ipython3 kernelspec install-self
-    #+END_SRC
-    
-  + Give a domain name to your server ::
+  + Give a domain name to your server :: 
 
   + Configure Ngninx ::
     + Open file 
@@ -204,9 +201,8 @@
       vlabsnodehook                    RUNNING    pid 1054, uptime 14:40:48
       supervisor> 
       #+END_SRC
- 
-     
-   + Create users in the notebook server ::
+      
+  + Create users in the notebook server ::
      Create 5 users and give them password  and switch to their home once 
      #+BEGIN_SRC command
      sudo adduser username
@@ -214,24 +210,27 @@
      su username 
      #+END_SRC
    
-   + Reboot your machine ::
+  + Reboot your machine ::
      #+BEGIN_SRC command
      sudo reboot 
      #+END_SRC
 
-   + Access your default notebook on server ::
+  + Access your default notebook on server ::
      #+BEGIN_SRC command
      1. Visit URL of your notebook server 
      2. Login using given username and password 
      3. You must see a default untitled notebook
      #+END_SRC
 
-  
-
-
-* Install ijavascript kernel for ipython noteboks
+* Install javascript kernel for ipython noteboks
   - Install ijavascript and it prerequisites by running 
     #+BEGIN_EXAMPLE
     sudo apt-get install libzmq3-dev 
     sudo npm install -g ijavascript
     #+END_EXAMPLE
+* Install Python3 kernel
+  + Install Python3 Kernel ::
+    #+BEGIN_SRC command
+    sudo ipython3 kernelspec install-self
+    #+END_SRC
+    
