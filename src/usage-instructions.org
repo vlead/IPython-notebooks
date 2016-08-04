@@ -5,14 +5,31 @@
 * Introduction
   This document mentions the steps which are to be used for self demonstrating IPython notebooks.
 
-* Steps 
-  + Login to your working IPython notebook server on your browser
+* Instructions
+** Login instructions  
+  + Login to your working IPython notebook server on your browser.
    #+BEGIN_SRC command
    http://your-ipython-notebook-server:port
    #+END_SRC
-  + A login page will appaer.
+  + A login page will appear.
   + Login using  user credentials shared by your server admin.
   + An interface listing notebooks will appear.
   + Click on the notebook which you want to see.
   + Using the features provided by IPython notebook, create your own notebooks and save them.
+
+** Import a notebook to your workspace
+  + Login using credentials 
+  + At top right, Click "New" drop down and select "Terminal"
+  + A shell terminal will appear in your new tab.
+  + You can use basic shell commands.
+  + Clone a repository in your working directory. Repository should be the one 
+    having IPython notebooks in it.
+  + Example -   git clone https://github.com/rasbt/algorithms_in_ipython_notebooks.git
+  + Exit your terminal and visit your notebook user space.
+  + Repository cloned must be visible as a folder.
+  + Navigate to folder and look for notebooks with .ipynb extensions.
+  + Your IPython notebook is imported.
+
+** 
+  
   
