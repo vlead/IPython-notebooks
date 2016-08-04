@@ -229,3 +229,9 @@
   
 
 
+* Install ijavascript kernel for ipython noteboks
+  - Install ijavascript and it prerequisites by running 
+    #+BEGIN_EXAMPLE
+    sudo apt-get install libzmq3-dev 
+    sudo npm install -g ijavascript
+    #+END_EXAMPLE
