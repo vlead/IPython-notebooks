@@ -1,0 +1,18 @@
+#+Title: IPython notebook usage instructions 
+#+Date: Thursday, August 4, 2016
+#+Author: VLEAD Systems 
+
+* Introduction
+  This document mentions the steps which are to be used for self demonstrating IPython notebooks.
+
+* Steps 
+  + Login to your working IPython notebook server on your browser
+   #+BEGIN_SRC command
+   http://your-ipython-notebook-server:port
+   #+END_SRC
+  + A login page will appaer.
+  + Login using  user credentials shared by your server admin.
+  + An interface listing notebooks will appear.
+  + Click on the notebook which you want to see.
+  + Using the features provided by IPython notebook, create your own notebooks and save them.
+  
