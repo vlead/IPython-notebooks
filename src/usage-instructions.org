@@ -30,12 +30,18 @@
   + Repository cloned must be visible as a folder.
   + Navigate to folder and look for notebooks with .ipynb extensions.
   + Your IPython notebook is imported.
+  + Refer Section to "Shutdown Labs"
 
 ** Create your new notebook
    + Create a notebook by clicking the "New" Notebook drop down.
    + The IPython Notebook dashboard will launch inside your default web browser.
    + Using the menu provided, add cells, contents, code snippets etc.
    + Save your notebook.
-   + Change the title of the notebook to <you-notebook-name> by left clicking on “Untitled?” at the top of the page.
+   + Change the title of the notebook to <your-notebook-name> by left clicking on “Untitled?” at the top of the page.
   
-  
+** Shutdown notebooks and terminal 
+   Once clicked/opened, notebooks runs for ever and hence consume resources. One must shutdown 
+   notebooks. Please follow the steps to shutdown notebooks -
+   + Click on "Running" tab.
+   + This will list all the notebooks which are currently running.
+   + Click on "Shutdown" button infornt of all labs and terminals.  
