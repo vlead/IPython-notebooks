@@ -15,44 +15,44 @@
   + Install basic system packages ::
     #+BEGIN_SRC commands 
     sudo apt-get update
-    sudo apt-get install build-essential
-    sudo apt-get install binutils 
-    sudo apt-get install binutils-doc 
-    sudo apt-get install python-dev python3-dev
-    sudo apt-get install python-pip
-    sudo apt-get intall git emacs 
+    sudo apt-get -y install build-essential
+    sudo apt-get -y install binutils 
+    sudo apt-get -y install binutils-doc 
+    sudo apt-get -y install python-dev python3-dev
+    sudo apt-get -y install python-pip
+    sudo apt-get -y intall git emacs 
     sudo reboot
-    sudo apt-get install automake 
-    sudo apt-get install libblas­dev
-    sudo apt-get install autoconf flex bison
-    sudo apt-get install libjpeg-dev libfreetype6-dev 
-    sudo apt-get install zlib1g-dev
-    sudo apt-get install libssl­dev
-    sudo apt-get install python3-pip
-    sudo apt-get install gcc g++
-    sudo apt-get install ngnix 
-    sudo apt-get install supervisor 
-    sudo apt-get install libfreetype6-dev libxft-dev
+    sudo apt-get -y install automake 
+    sudo apt-get -y install libblas­dev
+    sudo apt-get -y install autoconf flex bison
+    sudo apt-get -y install libjpeg-dev libfreetype6-dev 
+    sudo apt-get -y install zlib1g-dev
+    sudo apt-get -y install libssl­dev
+    sudo apt-get -y install python3-pip
+    sudo apt-get -y install gcc g++
+    sudo apt-get -y install ngnix 
+    sudo apt-get -y install supervisor 
+    sudo apt-get -y install libfreetype6-dev libxft-dev
     sudo reboot 
-    sudo apt-get install libboost­all­dev
-    sudo apt-get install cython
-    sudo apt-get install liblapack­dev libatlas­base­dev
-    sudo apt-get install liblapack­dev liblapack3
-    sudo apt-get install gfortran
+    sudo apt-get -y install libboost­all­dev
+    sudo apt-get -y install cython
+    sudo apt-get -y install liblapack­dev libatlas­base­dev
+    sudo apt-get -y install liblapack­dev liblapack3
+    sudo apt-get -y install gfortran
     sudo reboot  
-    sudo apt-get install libssl­dev
-    sudo apt-get install curl 
-    sudo apt-get install feedgnuplot gnuplot­doc
-    sudo apt-get install libdom4j­java­doc libjdom1­java­doc
+    sudo apt-get -y install libssl­dev
+    sudo apt-get -y install curl 
+    sudo apt-get -y install feedgnuplot gnuplot­doc
+    sudo apt-get -y install libdom4j­java­doc libjdom1­java­doc
     sudo reboot
-    sudo apt-get install cmake­curses­gui libpthread­stubs0­dev
-    sudo apt-get install python2.7­dev
-    sudo apt-get install python­gnuplot
+    sudo apt-get -y install cmake­curses­gui libpthread­stubs0­dev
+    sudo apt-get -y install python2.7­dev
+    sudo apt-get -y install python­gnuplot
     #+END_SRC
 
   + Install node js ::
     #+BEGIN_SRC command
-    sudo apt-get install npm nodejs-legacy
+    sudo apt-get -y install npm nodejs-legacy
     #+END_SRC
 
   + Install jupyterhub and jupyter ::
@@ -83,7 +83,7 @@
     #+BEGIN_SRC command 
     sudo apt­add­repository ppa:webupd8team/java
     sudo apt­get update
-    sudo apt­get install oracle­java8­installer
+    sudo apt­get -y install oracle­java8­installer
     sudo reboot
     #+END_SRC
    
@@ -225,7 +225,7 @@
 * Install javascript kernel for ipython noteboks
   - Install ijavascript and it prerequisites by running 
     #+BEGIN_EXAMPLE
-    sudo apt-get install libzmq3-dev 
+    sudo apt-get -y install libzmq3-dev 
     sudo npm install -g ijavascript
     #+END_EXAMPLE
 * Install Python3 kernel
